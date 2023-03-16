@@ -580,6 +580,7 @@ img {
   background-color: var(--light-accent);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  transition: color var(--transition), background-color var(--transition);
 }
 
 .modal-icon {
