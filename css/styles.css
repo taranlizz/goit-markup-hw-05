@@ -576,10 +576,17 @@ img {
   align-items: center;
   width: 24px;
   height: 24px;
+  color: inherit;
   background-color: var(--light-accent);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
 .modal-icon {
+  fill: currentColor;
+}
+
+.mod-close-btn:is(:hover, :focus) {
+  color: var(--icon-clr);
+  background-color: var(--active-state-color);
 }
